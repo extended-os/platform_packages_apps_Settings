@@ -13,17 +13,17 @@
 
 <PreferenceScreen
 xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/aex_about_info">
+        android:title="@string/aosep_about_info">
 
 <PreferenceCategory
               android:key="about"
               android:title="@string/dev_info" >
 
         <Preference
-    android:summary="@string/aex_about_info_summary" >
+    android:summary="@string/aosep_about_info_summary" >
             <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://plus.google.com/communities/106726906578669931141" />
+               android:data="http://github.com/aosep" />
       </Preference>
 
         <Preference
@@ -32,17 +32,10 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_github" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://github.com/AospExtended" />
+               android:data="http://github.com/aosep" />
         </Preference>
 
-        <Preference
-            android:title="@string/gplus"
-    android:summary="@string/gplus_description"
-    android:icon="@drawable/ic_gplus" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://plus.google.com/communities/106726906578669931141" />
-        </Preference>
+        
 
         <Preference
             android:title="@string/telegram"
@@ -50,7 +43,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_telegram" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://telegram.me/aospextended" />
+               android:data="http://telegram.me/aosep" />
         </Preference>
 
         <Preference
@@ -59,7 +52,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_web" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://downloads.aospextended.com/" />
+               android:data="https://androidfilehost.com/user/?w=settings-dev-files&flid=292534/" />
         </Preference>
 
         <Preference
@@ -92,7 +85,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://plus.google.com/+shubhamsingh" />
+               android:data="http://github.com/anisnoorudheen" />
         </Preference>
 
        <Preference
@@ -101,7 +94,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://forum.xda-developers.com/member.php?u=6257538" />
+               android:data="http://github.com/ameerava" />
         </Preference>
 
        <Preference
@@ -110,7 +103,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://plus.google.com/+AmolAmrit" />
+               android:data="http://github.com/arshaprasad" />
         </Preference>
 
        <Preference
@@ -119,15 +112,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_devs">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://forum.xda-developers.com/member.php?u=6519039" />
+               android:data="http://github.com/irisanna1607" />
       </Preference>
 
 
 </PreferenceCategory>
 
 <PreferenceCategory
-              android:key="designers"
-              android:title="@string/designers" >
+              android:key="Mentors"
+              android:title="@string/Mentors" >
 
        <Preference
             android:title="@string/designer_1"
@@ -173,7 +166,50 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://github.com/allstargaurav" />
+     </Preference>Preference
+            android:title="@string/designer_1"
+    android:summary="@string/designer1_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://github.com/Aliencreature7" />
+      </Preference>
+
+       <Preference
+            android:title="@string/designer_2"
+    android:summary="@string/designer2_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="http://github.com/Wizper99" />
+      </Preference>
+
+       <Preference
+            android:title="@string/designer_3"
+    android:summary="@string/designer3_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="bhttp://plus.google.com/100866392291383803831" />
+      </Preference>
+
+      <Preference
+            android:title="@string/designer_4"
+    android:summary="@string/designer4_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https://plus.google.com/+HarshV23" />
      </Preference>
+
+
+      <Preference
+            android:title="@string/designer_5"
+    android:summary="@string/designer5_description"
+    android:icon="@drawable/ic_design">
+    <intent
+               android:action="android.intent.action.VIEW"
+               android:data="https
 
       <Preference
             android:title="@string/designer_6"
@@ -186,16 +222,4 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 </PreferenceCategory>
 
-<PreferenceCategory
-              android:key="maintainers"
-              android:title="@string/maintainers" >
 
-        <Preference
-        android:key="maintainers_fragment"
-        android:title="@string/maintainers_title"
- 	android:summary="@string/maintainers_summary"
-        android:fragment="com.android.settings.Maintainers" />
-
-</PreferenceCategory>
-
-</PreferenceScreen>
