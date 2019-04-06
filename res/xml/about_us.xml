@@ -52,26 +52,10 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     android:icon="@drawable/ic_web" >
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://androidfilehost.com/user/?w=settings-dev-files&flid=292534/" />
+               android:data="http://github.com/aosep/" />
         </Preference>
 
-        <Preference
-            android:title="@string/help_translate"
-    android:summary="@string/help_translate_description"
-    android:icon="@drawable/ic_trans" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://translate.aospextended.com/" />
-        </Preference>
-
-        <Preference
-            android:title="@string/walls"
-    android:summary="@string/walls_description"
-    android:icon="@drawable/ic_walls" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://aospextended.imgur.com/" />
-        </Preference>
+ 
 
      </PreferenceCategory>
 
@@ -166,51 +150,9 @@ xmlns:android="http://schemas.android.com/apk/res/android"
     <intent
                android:action="android.intent.action.VIEW"
                android:data="https://github.com/allstargaurav" />
-     </Preference>Preference
-            android:title="@string/designer_1"
-    android:summary="@string/designer1_description"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://github.com/Aliencreature7" />
-      </Preference>
-
-       <Preference
-            android:title="@string/designer_2"
-    android:summary="@string/designer2_description"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://github.com/Wizper99" />
-      </Preference>
-
-       <Preference
-            android:title="@string/designer_3"
-    android:summary="@string/designer3_description"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="bhttp://plus.google.com/100866392291383803831" />
-      </Preference>
-
-      <Preference
-            android:title="@string/designer_4"
-    android:summary="@string/designer4_description"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/+HarshV23" />
      </Preference>
 
-
-      <Preference
-            android:title="@string/designer_5"
-    android:summary="@string/designer5_description"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https
-
+     
       <Preference
             android:title="@string/designer_6"
     android:summary="@string/designer6_description"
@@ -220,6 +162,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:data="https://forum.xda-developers.com/member.php?u=7820332" />
      </Preference>
 
-</PreferenceCategory>
+ </PreferenceCategory>
 
-
+</PreferenceScreen>
