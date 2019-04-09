@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
+ <!--
   Copyright (C) 2017 The Android Open Source Project
+
+
+ Copyright (C) 2017 The Android Open Source Project
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -23,19 +26,12 @@
 
     <!-- About us -->
     <Preference
-        android:key="aex_about_info"
+        android:key="aosep_about_info"
         android:order="0"
-        android:title="@string/aex_about_info"
-	android:summary="@string/aex_about_summary"
+        android:title="@string/aosep_about_info"
+	android:summary="@string/aosep_about_summary"
         android:fragment="com.android.settings.AboutUs" />
 
-    <!-- Changelog -->
-    <Preference
-        android:key="changelog"
-        android:order="1"
-        android:title="@string/changelog_title"
-	android:summary="@string/changelog_summary"
-        android:fragment="com.android.settings.extended.Changelog" />
 
     <!-- Phone number -->
     <Preference

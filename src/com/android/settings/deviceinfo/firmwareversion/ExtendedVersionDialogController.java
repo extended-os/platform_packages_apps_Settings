@@ -37,9 +37,9 @@ public class ExtendedVersionDialogController  implements View.OnClickListener {
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
 
     @VisibleForTesting
-    static final int EXTENDED_VERSION_VALUE_ID = R.id.extended_version_value;
+    static final int aosep_VERSION_VALUE_ID = R.id.aosep_version_value;
     @VisibleForTesting
-    static final int EXTENDED_VERSION_LABEL_ID = R.id.extended_version_label;
+    static final int aosep_LABEL_ID = R.id.aosep_version_label;
 
     private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;
@@ -87,13 +87,13 @@ public class ExtendedVersionDialogController  implements View.OnClickListener {
         initializeAdminPermissions();
         registerClickListeners();
 
-        mDialog.setText(EXTENDED_VERSION_VALUE_ID,
+        mDialog.setText(aosep_VERSION_VALUE_ID,
                 BidiFormatter.getInstance().unicodeWrap(Build.EXTENDED_DISPLAY_VERSION));
     }
 
     private void registerClickListeners() {
-        mDialog.registerClickListener(EXTENDED_VERSION_LABEL_ID, this /* listener */);
-        mDialog.registerClickListener(EXTENDED_VERSION_VALUE_ID, this /* listener */);
+        mDialog.registerClickListener(aosep_VERSION_LABEL_ID, this /* listener */);
+        mDialog.registerClickListener(aosep_VERSION_VALUE_ID, this /* listener */);
     }
 
     /**
