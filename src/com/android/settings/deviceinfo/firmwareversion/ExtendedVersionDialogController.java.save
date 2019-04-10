@@ -39,7 +39,7 @@ public class ExtendedVersionDialogController  implements View.OnClickListener {
     @VisibleForTesting
     static final int aosep_VERSION_VALUE_ID = R.id.aosep_version_value;
     @VisibleForTesting
-    static final int aosep_VERSION_LABEL_ID = R.id.aosep_version_label;
+    static final int aosep_LABEL_ID = R.id.aosep_version_label;
 
     private final FirmwareVersionDialogFragment mDialog;
     private final Context mContext;
@@ -93,7 +93,7 @@ public class ExtendedVersionDialogController  implements View.OnClickListener {
 
     private void registerClickListeners() {
         mDialog.registerClickListener(aosep_VERSION_LABEL_ID, this /* listener */);
-        mDialog.registerClickListener(aosep_VERSION_VALUE_ID, this /* listener */);
+        mDialog.registerClickListener(extended_VERSION_VALUE_ID, this /* listener */);
     }
 
     /**
@@ -112,3 +112,4 @@ public class ExtendedVersionDialogController  implements View.OnClickListener {
                 mContext, UserManager.DISALLOW_FUN, UserHandle.myUserId());
     }
 }
+2
