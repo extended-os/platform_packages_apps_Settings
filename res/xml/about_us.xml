@@ -60,24 +60,7 @@ android:title="@string/aosep_about_info">
 />
         </Preference>
 
-<Preference
-            android:title="@string/telegram"
-    android:summary="@string/telegram_description"
-    android:icon="@drawable/ic_telegram" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://telegram.me/aosep" 
-/>
-        </Preference>
-        <Preference
-            android:title="@string/web"
-    android:summary="@string/web_description"
-    android:icon="@drawable/ic_web" >
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://github.com/aosep/download/"/>
-        </Preference> 
-              
+
      </PreferenceCategory>
     
      <PreferenceCategory
@@ -119,8 +102,9 @@ android:title="@string/aosep_about_info">
                android:action="android.intent.action.VIEW"
                android:data="http://github.com/irisanna1607" 
 />
-      </Preference> </PreferenceCategory> 
-<PreferenceCategory
+      </Preference> 
+     </PreferenceCategory> 
+      <PreferenceCategory
               android:key="Mentors"
               android:title="@string/Mentors" 
 >
@@ -130,7 +114,7 @@ android:title="@string/aosep_about_info">
     android:icon="@drawable/ic_design">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="http://github.com/Aliencreature7" 
+               android:data="https://www.linkedin.com/in/anjali-krishnan-291067b8" 
 />
       </Preference>
        <Preference
@@ -167,66 +151,18 @@ android:title="@string/aosep_about_info">
     android:icon="@drawable/ic_design">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://github.com/allstargaurav" 
+               android:data="https://www.linkedin.com/in/nikhil-c-r-9153b162" 
 />
      </Preference>
-      <Preference
-            android:title="@string/designer_1"
-    android:summary="@string/designer1_description"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://github.com/Aliencreature7"/>
-
-      </Preference>
-       
-        <Preference
-            android:title="@string/designer_2"
-    android:summary="@string/designer2_description"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="http://github.com/Wizper99" 
-/>
-      </Preference>
-       <Preference
-            android:title="@string/designer_3"
-    android:summary="@string/designer3_description"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="bhttp://plus.google.com/100866392291383803831" 
-/>
-      </Preference>
       
-      <Preference
-            android:title="@string/designer_4"
-    android:summary="@string/designer4_description"
-    android:icon="@drawable/ic_design">">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://plus.google.com/+HarshV23" 
-/>
-     </Preference>
      
-      <Preference
-            android:title="@string/designer_5"
-    android:summary="@string/designer5_description"
-    android:icon="@drawable/ic_design">
-    <intent
-               android:action="android.intent.action.VIEW"
-               android:data="https://github.com/ExtendedOS"
-/>
-
-     </Preference>
-
          <Preference
             android:title="@string/designer_6"
     android:summary="@string/designer6_description"
     android:icon="@drawable/ic_design">
     <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://forum.xda-developers.com/member.php?u=7820332" 
+               android:data="https://www.linkedin.com/in/neenu-p-a-291045b8" 
 />
      </Preference>
  </PreferenceCategory>
